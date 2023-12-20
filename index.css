@@ -1,0 +1,45 @@
+header { 
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: -10%;
+    margin-right: -10%;
+    margin-top: -1%;
+}
+body {
+    background-color: lightgrey;
+    font-family: 'Open Sans', sans-serif;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post-1, .post-3 {
+    width: 600px;
+    height: 500px;
+    background-color: white;
+}
+.post-2 {
+    width: 400px;
+    height: 800px;
+    background-color: white;
+}
+.encabezados {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px 0 0 ;
+}
+img {
+    width: 600px;
+    height: 400px;
+}
+span {
+    color: gainsboro;
+}
+#taza {
+    width: 400px;
+    height: 600px;
+}
+
